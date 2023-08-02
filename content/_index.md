@@ -8,8 +8,8 @@ sections:
   - block: hero
     content:
       title: |
-        Wowchemy
-        Research Group
+        USF
+        Marquês de Marialva
       image:
         filename: welcome2.jpg
       text: |
