@@ -1,6 +1,6 @@
 ---
 title: Francisca Mangas
-avatar_filename: images.jpg
+avatar_filename: avatar.jpg
 social: []
 superuser: false
 user_groups:
