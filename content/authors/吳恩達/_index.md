@@ -1,7 +1,7 @@
 ---
 title: Francisca Mangas
 role: Médica de Medicina Geral e Familiar
-avatar_filename: images.jpg
+avatar_filename: logo_bicsp.svg
 organizations: []
 superuser: false
 authors:
