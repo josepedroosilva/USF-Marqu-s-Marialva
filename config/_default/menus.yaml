@@ -10,15 +10,18 @@ main:
   - name: Unidade
     url: unidade
     weight: 20
+  - name: O Que Oferecemos?
+    url: oferecemos
+    weight: 30
   - name: Notícias
     url: post
-    weight: 30
+    weight: 40
   - name: Equipa
     url: people
-    weight: 40
+    weight: 50
   - name: Eventos
     url: event
-    weight: 50
+    weight: 60
   - name: Contactos
     url: contact
-    weight: 60
+    weight: 70
