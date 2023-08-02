@@ -1,6 +1,6 @@
 ---
-title: Francisca Mangas
-role: Médica de Medicina Geral e Familiar
+title: Ercília Neto
+role: Enfermeira de Família
 avatar_filename: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3c2QSkljaaax-hqhInw1F8W-AVAwv7OmM_w&usqp=CAU
 organizations: []
 superuser: false
@@ -13,7 +13,7 @@ education:
   courses: []
 email: ""
 user_groups:
-  - Médicos
+  - Enfermeiros
 last_name: Wu
 first_name: Alice
 ---
