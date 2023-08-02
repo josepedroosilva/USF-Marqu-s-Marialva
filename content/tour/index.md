@@ -8,18 +8,18 @@ sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
-        content: Take a look at what we're working on...
+      - title: Ausências da Semana
+        content: 'Adicionar'
         align: center
         background:
           image:
-            filename: coders.jpg
+            filename: coders2.jpg
             filters:
               brightness: 0.7
           position: right
           color: '#666'
-      - title: Lunch & Learn ☕️
-        content: 'Share your knowledge with the group and explore exciting new topics together!'
+      - title: Cidadãos Sem Equipa de Saúde Familiar
+        content: 'Adicionar'
         align: left
         background:
           image:
@@ -28,12 +28,12 @@ sections:
               brightness: 0.7
           position: center
           color: '#555'
-      - title: World-Class Semiconductor Lab
-        content: 'Just opened last month!'
+      - title: O Novo Sistema de Atendimento Telefónico
+        content: 'Adicionar'
         align: right
         background:
           image:
-            filename: welcome.jpg
+            filename: welcome2.jpg
             filters:
               brightness: 0.5
           position: center
