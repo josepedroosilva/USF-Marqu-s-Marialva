@@ -10,7 +10,7 @@ sections:
         Sobre
         Nós
       image:
-        filename: welcome2.jpg
+        filename:
       text: |
         <br>
         
