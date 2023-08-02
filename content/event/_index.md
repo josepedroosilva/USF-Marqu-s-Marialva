@@ -1,5 +1,6 @@
 ---
 title: Eventos Recentes
+# Pagina sobre eventos recentes
 
 # Listing view
 view: compact

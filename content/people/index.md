@@ -1,6 +1,7 @@
 ---
 title: Equipa
 date: 2022-10-24
+# Pagina para escrever info sobre a equipa
 
 type: landing
 
