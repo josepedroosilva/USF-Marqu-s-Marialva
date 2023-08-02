@@ -38,7 +38,12 @@ sections:
               brightness: 0.5
           position: center
           color: '#333'
-      design:
+        link:
+          icon: 
+          icon_pack: 
+          text: 
+          url: 
+    design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
       is_fullscreen: true
