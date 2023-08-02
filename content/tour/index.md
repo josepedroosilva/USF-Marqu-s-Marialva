@@ -1,5 +1,5 @@
 ---
-title: Tour
+title: Informações Importantes
 date: 2022-10-24
 
 type: landing
