@@ -5,7 +5,7 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block:
+  - block: contact
     content:
       title: Contactos
       text: |-
@@ -45,7 +45,7 @@ sections:
           # Enable CAPTCHA challenge to reduce spam?
           captcha: false
     design:
-      columns: '1'
+      columns: '0'
 
   - block: markdown
     content:
