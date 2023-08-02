@@ -26,7 +26,6 @@ sections:
       office_hours:
         - 'Monday 10:00 to 13:00'
         - 'Wednesday 09:00 to 10:00'
-      appointment_url:
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
@@ -41,23 +40,5 @@ sections:
     design:
       columns: ''
 
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename:
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+  
 ---
