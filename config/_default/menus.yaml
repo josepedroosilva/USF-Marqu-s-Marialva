@@ -7,6 +7,9 @@ main:
   - name: Importante
     url: tour
     weight: 10
+  - name: Unidade
+    url: unidade
+    weight: 10
   - name: Notícias
     url: post
     weight: 20
