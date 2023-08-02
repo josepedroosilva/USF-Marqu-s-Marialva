@@ -16,6 +16,7 @@ sections:
         <br>
         
         Somos uma equipa constituída por Médicos de Família, Enfermeiros, Secretários Clínicos, Assistente Operacional, Internos de Especialidade de Medicina Geral e Familiar, alunos de Medicina e Enfermagem, motivados para o servir melhor.
+
   - block: collection
     content:
       title: Notícias
@@ -34,6 +35,7 @@ sections:
     design:
       view: card
       columns: '1'
+  
   - block: markdown
     content:
       title:
@@ -52,7 +54,8 @@ sections:
           text_color_light: true
       spacing:
         padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen 
+      css_class: fullscreen
+  
   - block: markdown
     content:
       title:
