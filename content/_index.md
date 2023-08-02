@@ -9,13 +9,13 @@ sections:
     content:
       title: |
         USF
-        Marquês de Marialva
+        Marquês Marialva
       image:
         filename: welcome2.jpg
       text: |
         <br>
         
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        Somos uma equipa constituída por Médicos de Família, Enfermeiros, Secretários Clínicos, Assistente Operacional,  Internos de Especialidade de Medicina Geral e Familiar, alunos de Medicina e Enfermagem, motivados para o servir melhor.
   
   - block: collection
     content:
