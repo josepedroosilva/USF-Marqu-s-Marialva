@@ -14,8 +14,8 @@ sections:
           - Principal Investigators
           - Researchers
           - Grad Students
-          - Administration
-          - Visitors
+          - Secretários Clínicos
+          - Enfermeiros
           - Médicos
       sort_by: Params.last_name
       sort_ascending: true
