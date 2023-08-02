@@ -9,7 +9,7 @@ education:
   courses: []
 superuser: false
 user_groups:
-  - Researchers
+  - Médicos
 last_name: Bighetti
 highlight_name: false
 first_name: Nelson
