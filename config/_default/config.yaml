@@ -28,7 +28,16 @@ module:
 ############################
 ## ADVANCED
 ############################
-
+collections:
+  - name: "unidade"
+    label: "Unidade"
+    identifier_field: slug
+    folder: "unidade"
+    create: true
+    fields:
+      - {label: "Category", name: "category_name", widget: "string"}
+      - {label: "Category Image", name: "category_img", widget: "image"}
+      - {label: "Slug", name: "slug", widget: "string"}
 enableGitInfo: false
 summaryLength: 30
 paginate: 10
