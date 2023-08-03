@@ -25,17 +25,12 @@ module:
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
     - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
 
-############################
-## ADVANCED
-############################
-enableGitInfo: false
-summaryLength: 30
-paginate: 10
-enableEmoji: true
-enableRobotsTXT: true
-footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles: [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$]
 
+permalinks:
+  authors: '/author/:slug/'
+  tags: '/tag/:slug/'
+  categories: '/category/:slug/'
+  publication_types: '/publication-type/:slug/'
 disableAliases: true
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
@@ -45,29 +40,23 @@ imaging:
   quality: 75
   anchor: smart
 timeout: 600000
+taxonomies:
+  tag: tags
+  category: categories
+  publication_type: publication_types
+  author: authors
 markup:
   _merge: deep
 related:
   threshold: 80
   includeNewer: true
   toLower: true
-
-backend:
-  name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
-
-# This line should *not* be indented
-publish_mode: editorial_workflow
-media_folder: "assets/media"
-
-collections:
-  - name: "unidade" 
-    label: "Unidade" 
-    folder: "content/unidade" 
-    create: true 
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    preview_path: "content/unidade/{{slug}}" 
-    fields: # The fields for each document, usually in front matter`
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Body", name: "sections", widget: "markdown"}
+  indices:
+    - name: tags
+      weight: 100
+    - name: categories
+      weight: 70
+security:
+  _merge: deep
+sitemap:
+  _merge: deep
