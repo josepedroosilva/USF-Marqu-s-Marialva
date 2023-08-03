@@ -70,12 +70,12 @@ security:
 sitemap:
   _merge: deep
 collections:
-  - name: "unidade" 
-      label: "Unidade" 
-      folder: "content/unidade" 
-      create: true 
-      slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-      preview_path: "content/unidade/{{slug}}" 
-      fields: # The fields for each document, usually in front matter`
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Date", name: "date", widget: "datetime"}
+  name: "unidade" 
+  label: "Unidade" 
+  folder: "content/unidade" 
+  create: true 
+  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+  preview_path: "content/unidade/{{slug}}" 
+  fields: # The fields for each document, usually in front matter`
+    - {label: "Title", name: "title", widget: "string"}
+    - {label: "Date", name: "date", widget: "datetime"}
